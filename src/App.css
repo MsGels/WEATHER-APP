@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 30px;
+  background: rgba(255, 157, 29, 0.4);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 15px rgba(75, 35, 3, 0.2);
+}
+
+h1 {
+  color: rgb(67, 116, 190);
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.weather-card {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.weather-card h2,
+.weather-card p {
+  color: rgb(0, 27, 50);
+  margin: 10px 0;
+}
+
+p {
+  color: rgb(176, 1, 1);
+  margin-top: 10px;
+}
